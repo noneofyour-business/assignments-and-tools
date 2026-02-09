@@ -40,7 +40,7 @@ if muffins==0 and cupcakes>0:
                 print(f"There are no muffins and {cupcakes} cupcakes left.")
                 sys.exit(cupcakes>1)
             
-if muffins==0 and cupcakes>0:
+if cupcakes==0 and muffins>0:
     print("The bakery is out of cupcakes.")        
     while cupcakes == 0 and muffins>0:
         outOfCupcakes = input("Would you like to buy a muffin?")
@@ -58,3 +58,4 @@ if muffins==0 and cupcakes>0:
 if muffins==0 and cupcakes==0:
     print("Thank you for buying all of our bakery's items!")
     
+
